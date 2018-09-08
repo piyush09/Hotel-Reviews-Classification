@@ -14,3 +14,8 @@ The tokens are followed by the text of the review.
 
 ## **Code Description**
 
+1. nblearn3.py will learn a Naive Bayes Model from the training data, and nbclassify3.py will use the model to classify new data.
+
+2. nblearn3.py - This program learns a Naive Bayes Model, and write the model parameters to a file called "nbmodel.txt".
+
+3. nbclassify3.py - This program will read the parameters of a naive Bayes model from the file "nbmodel.txt", classify each entry in the test data, and write the results to a text file called "nboutput.txt".
